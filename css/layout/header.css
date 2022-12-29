@@ -1,0 +1,36 @@
+@import url(../utils/variables.css);
+
+.header {
+    padding: 2.25em 5em 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+
+.themes {
+    width: 8em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--dark-gray);
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.themes button {
+    width: 50%;
+    padding: 0.8em 1em;
+}
+
+.themes button:first-of-type {
+    border-right: 1px solid var(--dark-gray);
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        padding: 1em 0;
+        justify-content: center;
+    }
+}
