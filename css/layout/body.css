@@ -1,0 +1,9 @@
+@import url(../utils/variables.css);
+
+body {
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+}
