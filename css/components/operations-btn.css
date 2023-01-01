@@ -5,13 +5,30 @@ button.operation {
     font-size: 2em;
     color: var(--white);
 }
-button.operation.plus{
+button.operation.plus {
     flex-grow: 2;
 }
-button.equal{
+button.equal {
     flex-grow: 2;
     background-color: var(--tertiary);
     border-radius: 12px;
     color: var(--white);
     font-size: 2em;
+}
+
+.horizontal-actions button:not(.operation, .backspace) {
+    background-color: var(--white);
+    padding: 0.3em 0.6em;
+    border-radius: 12px;
+    font-size: 2em;
+    font-weight: 500;
+    color: var(--gray);
+}
+
+.horizontal-actions button {
+    padding: 0.3em 0.6em;
+    border-radius: 12px;
+    font-size: 2em;
+    font-weight: 500;
+    grid-row: 2/3;
 }

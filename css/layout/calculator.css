@@ -16,6 +16,9 @@
 .horizontal-actions {
     grid-column: 1/5;
     grid-row: 1/2;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+    gap: 1.25em;
 }
 
 .numbers {
