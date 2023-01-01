@@ -1,0 +1,25 @@
+button.number {
+    font-size: 2em;
+    border: 1px solid var(--white);
+    color: var(--tertiary);
+    padding: 0.3em 0.6em;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button.number:hover {
+    background-color: #0077B620;
+    backdrop-filter: blur(6px);
+}
+
+button.number.zero {
+    grid-column: 1/3;
+}
+
+span.dot {
+    background-color: var(--tertiary);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
