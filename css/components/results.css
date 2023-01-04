@@ -1,0 +1,13 @@
+.result {
+    font-size: 3em;
+    font-weight: 500;
+    color: var(--dark-gray);
+}
+.result::before {
+    content: '=';
+}
+code{
+    font-weight: 400;
+    color: var(--gray);
+    font-size: 1.5em;
+}
